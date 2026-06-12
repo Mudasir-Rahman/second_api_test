@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:second_api_test/post_api_screen.dart';
 
 import 'package:second_api_test/second_home_screen.dart';
 
@@ -16,7 +17,8 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
       // home: const HomeScreen(),
-      home: const SecondHomeScreen(),
+      //home: const SecondHomeScreen(),
+      home: const PostApiScreen(),
     );
   }
 }
